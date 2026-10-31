@@ -1,0 +1,65 @@
+
+.farmer-verification {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 30px;
+  background: white;
+  border: 1px solid #e0ebe1;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(30, 70, 40, 0.06);
+}
+
+.farmer-verification h2 {
+  color: #216b3c;
+  margin-bottom: 20px;
+}
+
+.farmer-verification label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.farmer-verification input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d8e5d8;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.farmer-verification button,
+.passport-details button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 12px;
+  background: #216b3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.success-message {
+  color: #188044;
+  font-weight: 600;
+}
+
+.error-message {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.verified-status {
+  color: #188044;
+  background: #eaf7ed;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.passport-details p {
+  margin: 14px 0;
+}

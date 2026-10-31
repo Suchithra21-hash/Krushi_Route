@@ -1,0 +1,168 @@
+
+/* ===================================
+   KRUSHI-ROUTE GLOBAL APP STYLES
+=================================== */
+
+:root {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #26382b;
+  background: #f6f9f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f6f9f5;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+/* ===================================
+   DASHBOARD LAYOUT
+=================================== */
+
+.farmer-dashboard {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #f6f9f5;
+}
+
+.farmer-sidebar {
+  flex: 0 0 250px;
+  width: 250px;
+  min-height: 100vh;
+  background: #174d32;
+  color: white;
+}
+
+.farmer-main {
+  flex: 1;
+  min-width: 0;
+  padding: 28px;
+  background: #f6f9f5;
+}
+
+/* ===================================
+   SIDEBAR NAVIGATION
+=================================== */
+
+.farmer-sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.farmer-sidebar nav a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 11px 14px;
+  color: #e8f3e9;
+  text-decoration: none;
+  border-radius: 9px;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: 0.2s ease;
+}
+
+.farmer-sidebar nav a:hover {
+  background: #286b46;
+  color: #ffffff;
+}
+
+.farmer-sidebar nav a.active {
+  background: #ffffff;
+  color: #174d32;
+  font-weight: 700;
+}
+
+/* ===================================
+   RIGHT SIDE FEATURE AREA
+=================================== */
+
+.farmer-feature-content {
+  width: 100%;
+  min-width: 0;
+  margin-top: 24px;
+}
+
+.farmer-main h1,
+.farmer-main h2,
+.farmer-main h3 {
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.farmer-main p {
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+/* ===================================
+   RESPONSIVE
+=================================== */
+
+@media (max-width: 800px) {
+  .farmer-sidebar {
+    flex-basis: 210px;
+    width: 210px;
+  }
+
+  .farmer-main {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .farmer-dashboard {
+    flex-direction: column;
+  }
+
+  .farmer-sidebar {
+    width: 100%;
+    min-height: auto;
+    flex-basis: auto;
+  }
+
+  .farmer-sidebar nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 10px;
+  }
+
+  .farmer-main {
+    width: 100%;
+    padding: 15px;
+  }
+}

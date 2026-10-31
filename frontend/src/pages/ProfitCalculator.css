@@ -1,0 +1,65 @@
+
+.profit-page {
+  padding: 25px;
+  color: #24452b;
+}
+
+.profit-page h1 {
+  color: #287b3d;
+}
+
+.profit-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.profit-form,
+.profit-result {
+  padding: 25px;
+  background: #edf7ed;
+  border-radius: 14px;
+}
+
+.profit-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.profit-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-top: 7px;
+  border: 1px solid #b9cfba;
+  border-radius: 8px;
+}
+
+.profit-result > div {
+  padding: 12px;
+  margin-top: 15px;
+  background: white;
+  border-radius: 10px;
+}
+
+.profit-positive {
+  color: #218838;
+}
+
+.profit-negative {
+  color: #c62828;
+}
+
+.profit-note {
+  margin-top: 20px;
+  color: #718071;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .profit-page {
+    padding: 15px;
+  }
+}

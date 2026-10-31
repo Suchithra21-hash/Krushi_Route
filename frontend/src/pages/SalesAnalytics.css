@@ -1,0 +1,54 @@
+
+.sales-page {
+  padding: 25px;
+  color: #24452b;
+}
+
+.sales-page h1 {
+  color: #287b3d;
+}
+
+.sales-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 18px;
+  margin: 25px 0 35px;
+}
+
+.sales-card {
+  padding: 22px;
+  background: #edf7ed;
+  border: 1px solid #d6e5d6;
+  border-radius: 12px;
+}
+
+.sales-card h2 {
+  color: #287b3d;
+  font-size: 30px;
+}
+
+.sales-table-wrapper {
+  overflow-x: auto;
+  margin-top: 18px;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.sales-table th,
+.sales-table td {
+  padding: 14px;
+  border: 1px solid #d6e5d6;
+  text-align: left;
+}
+
+.sales-table th {
+  background: #edf7ed;
+}
+
+.sales-error {
+  color: #c62828;
+}

@@ -1,0 +1,51 @@
+
+.recommendation-form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #b9cfba;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.recommendation-form small {
+  display: block;
+  margin-top: 5px;
+  color: #718071;
+}
+
+.recommendation-results {
+  margin-top: 30px;
+}
+
+.recommendation-results h2 {
+  color: #287b3d;
+}
+
+.recommended-crop {
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.recommended-crop h3 {
+  margin-top: 0;
+  color: #287b3d;
+}
+
+.recommended-crop p {
+  margin: 8px 0;
+}
+
+.recommended-crop ul {
+  padding-left: 20px;
+  color: #526652;
+}
+
+.recommended-crop span {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.recommendation-form button:hover {
+  background: #1e6130;
+}

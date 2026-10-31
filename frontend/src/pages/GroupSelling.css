@@ -1,0 +1,88 @@
+.group-selling {
+  padding: 30px;
+  color: #244632;
+}
+
+.group-heading h1 {
+  color: #185b36;
+  margin-bottom: 8px;
+}
+
+.group-heading p {
+  color: #78877b;
+}
+
+.group-banner {
+  background: linear-gradient(120deg, #185b36, #4b9b60);
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 25px 0;
+}
+
+.group-banner h2 {
+  margin-bottom: 10px;
+}
+
+.group-section-title {
+  margin: 25px 0 18px;
+}
+
+.group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.group-card {
+  background: white;
+  padding: 22px;
+  border: 1px solid #e0ebe1;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(30, 70, 40, 0.06);
+}
+
+.group-card h3 {
+  color: #216b3c;
+  margin: 18px 0;
+}
+
+.group-card p {
+  margin: 12px 0;
+  color: #53675a;
+}
+
+.group-status {
+  background: #e5f5e8;
+  color: #216b3c;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.group-card button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #216b3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.group-card button:hover {
+  background: #164d2b;
+}
+
+.group-note {
+  margin-top: 20px;
+  color: #78877b;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .group-selling {
+    padding: 15px;
+  }
+}

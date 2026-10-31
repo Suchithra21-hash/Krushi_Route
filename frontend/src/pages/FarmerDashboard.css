@@ -1,0 +1,115 @@
+
+/* Compact Krushi AI assistant */
+
+.krushi-mini-assistant {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  background: white;
+  border: 1px solid #e2ebe2;
+  border-radius: 12px;
+}
+
+.krushi-mini-icon {
+  font-size: 22px;
+}
+
+.krushi-mini-mic {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 50%;
+  background: #174d32;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.krushi-mini-mic.listening {
+  background: #c0392b;
+}
+
+.krushi-mini-mic:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.krushi-mini-status {
+  min-width: 100px;
+  color: #55705d;
+  font-size: 12px;
+}
+
+.krushi-mini-form {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  gap: 7px;
+}
+
+.krushi-mini-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #dce6dc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.krushi-mini-form button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #174d32;
+  color: white;
+  cursor: pointer;
+}
+
+.krushi-mini-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.krushi-mini-reply {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  background: #edf6ed;
+  border-radius: 9px;
+  color: #294b32;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.krushi-mini-reply span {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.krushi-mini-reply button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .krushi-mini-assistant {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .krushi-mini-status {
+    flex: 1;
+  }
+
+  .krushi-mini-form {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Build files
+dist/
+build/
+
+# Editor files
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db

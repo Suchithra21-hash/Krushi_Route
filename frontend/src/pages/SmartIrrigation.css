@@ -1,0 +1,47 @@
+
+.irrigation-page {
+  padding: 25px;
+  color: #24452b;
+}
+
+.irrigation-page h1 {
+  color: #287b3d;
+}
+
+.irrigation-card {
+  max-width: 550px;
+  padding: 25px;
+  margin-top: 25px;
+  background: #edf7ed;
+  border-radius: 14px;
+}
+
+.irrigation-card label {
+  display: block;
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+.irrigation-card input,
+.irrigation-card select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #b9cfba;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.irrigation-advice {
+  margin-top: 25px;
+  padding: 18px;
+  background: white;
+  border-left: 5px solid #31964c;
+  border-radius: 8px;
+}
+
+.irrigation-note {
+  margin-top: 20px;
+  color: #718071;
+  font-size: 13px;
+}

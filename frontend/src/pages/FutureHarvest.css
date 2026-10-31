@@ -1,0 +1,92 @@
+
+.future-harvest {
+  padding: 30px;
+  color: #244632;
+}
+
+.future-harvest header h1 {
+  color: #185b36;
+  margin-bottom: 8px;
+}
+
+.future-harvest header p {
+  color: #78877b;
+}
+
+.future-banner {
+  background: linear-gradient(120deg, #185b36, #65a86b);
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 25px 0;
+}
+
+.future-banner h2 {
+  margin-bottom: 10px;
+}
+
+.future-title {
+  margin-bottom: 20px;
+}
+
+.future-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.future-card {
+  background: white;
+  border: 1px solid #e0ebe1;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 4px 15px rgba(30, 70, 40, 0.06);
+}
+
+.future-status {
+  display: inline-block;
+  background: #e5f5e8;
+  color: #216b3c;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.future-card h3 {
+  color: #216b3c;
+  margin: 18px 0;
+}
+
+.future-card p {
+  margin: 12px 0;
+  color: #53675a;
+}
+
+.future-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #216b3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.future-card button:disabled {
+  background: #8aab91;
+  cursor: not-allowed;
+}
+
+.future-note {
+  margin-top: 20px;
+  color: #78877b;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .future-harvest {
+    padding: 15px;
+  }
+}
+

@@ -1,0 +1,64 @@
+
+.crop-demand-page {
+  padding: 25px;
+  color: #24452b;
+}
+
+.crop-demand-page h1 {
+  color: #287b3d;
+}
+
+.demand-selector {
+  margin: 25px 0;
+}
+
+.demand-selector select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #b9cfba;
+}
+
+.demand-highlight {
+  background: #edf7ed;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.demand-bar {
+  height: 16px;
+  background: #d5e5d5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.demand-fill {
+  height: 100%;
+  background: #31964c;
+  border-radius: 20px;
+}
+
+.demand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+.demand-card {
+  background: white;
+  border: 1px solid #d6e5d6;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.demand-card h2 {
+  color: #287b3d;
+}
+
+.demand-note {
+  margin-top: 25px;
+  color: #718071;
+  font-size: 13px;
+}

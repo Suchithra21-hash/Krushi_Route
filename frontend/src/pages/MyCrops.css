@@ -1,0 +1,53 @@
+
+.my-crops-page {
+  padding: 25px;
+  color: #244632;
+}
+
+.my-crops-page header h1 {
+  color: #185b36;
+  margin-bottom: 8px;
+}
+
+.my-crops-page header p {
+  color: #78877b;
+}
+
+.saved-crops {
+  margin-top: 30px;
+}
+
+.saved-crops h2 {
+  color: #185b36;
+  margin-bottom: 20px;
+}
+
+.saved-crop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.saved-crop-card {
+  background: white;
+  border: 1px solid #e0ebe1;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 4px 15px rgba(30, 70, 40, 0.06);
+}
+
+.saved-crop-card h3 {
+  color: #216b3c;
+  margin-bottom: 15px;
+}
+
+.saved-crop-card p {
+  margin: 10px 0;
+  color: #53675a;
+}
+
+@media (max-width: 600px) {
+  .my-crops-page {
+    padding: 12px;
+  }
+}

@@ -1,0 +1,142 @@
+
+.weather-page {
+  padding: 25px;
+  color: #24452b;
+}
+
+.weather-header {
+  margin-bottom: 25px;
+}
+
+.weather-header h1 {
+  color: #246b38;
+}
+
+.weather-search {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.weather-search input {
+  flex: 1;
+  min-width: 200px;
+  padding: 13px;
+  border: 1px solid #b9cfba;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.weather-search button {
+  padding: 13px 22px;
+  background: #287b3d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.weather-search button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.weather-error {
+  color: #c62828;
+}
+
+.weather-loading {
+  color: #287b3d;
+}
+
+.current-weather,
+.crop-advisory {
+  background: #edf7ed;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.current-weather-details {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.current-weather-details h1 {
+  font-size: 48px;
+  margin: 5px 0;
+}
+
+.weather-icon {
+  font-size: 65px;
+}
+
+.weather-stats {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.weather-stats span {
+  color: #617765;
+}
+
+.forecast-section {
+  margin: 30px 0;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.forecast-card {
+  text-align: center;
+  padding: 18px 10px;
+  background: white;
+  border: 1px solid #d6e5d6;
+  border-radius: 12px;
+}
+
+.forecast-icon {
+  display: block;
+  font-size: 35px;
+  margin: 12px 0;
+}
+
+.forecast-card p {
+  font-size: 13px;
+}
+
+.forecast-card h3 {
+  color: #287b3d;
+}
+
+.crop-advisory {
+  border-left: 5px solid #65a66d;
+}
+
+.weather-note {
+  color: #718071;
+  font-size: 13px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .weather-page {
+    padding: 15px;
+  }
+
+  .current-weather-details h1 {
+    font-size: 36px;
+  }
+
+  .weather-stats {
+    gap: 20px;
+  }
+}

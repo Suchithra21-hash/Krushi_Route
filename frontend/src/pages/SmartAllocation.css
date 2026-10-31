@@ -1,0 +1,86 @@
+
+.allocation-page {
+  padding: 30px;
+  color: #20352a;
+}
+
+.allocation-page h1 {
+  color: #176b3a;
+  margin-bottom: 10px;
+}
+
+.allocation-page > p {
+  color: #718078;
+  margin-bottom: 25px;
+}
+
+.allocation-input {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+.allocation-input label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.allocation-input input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d5e1d8;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+}
+
+.allocation-input button {
+  background: #19834a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.allocation-input button:hover {
+  background: #126638;
+}
+
+.allocation-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.allocation-results h2 {
+  grid-column: 1 / -1;
+  color: #176b3a;
+}
+
+.allocation-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 5px solid #239653;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.allocation-card h3 {
+  color: #176b3a;
+}
+
+.allocation-card p {
+  color: #53645a;
+  font-size: 14px;
+}
+
+.allocation-note {
+  margin-top: 25px;
+  font-size: 12px;
+}

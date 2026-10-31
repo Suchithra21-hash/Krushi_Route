@@ -1,0 +1,81 @@
+
+.add-crop-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-crop-card {
+  width: 100%;
+  max-width: 650px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  border: 1px solid #e3eee3;
+  box-shadow: 0 5px 20px rgba(30, 70, 40, 0.08);
+}
+
+.add-crop-card h2 {
+  color: #185b36;
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+.add-crop-card p {
+  color: #78877b;
+  margin-bottom: 25px;
+}
+
+.add-crop-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.add-crop-card label {
+  color: #294b35;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.add-crop-card input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d8e5d8;
+  border-radius: 9px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.add-crop-card input:focus {
+  border-color: #31834d;
+  box-shadow: 0 0 0 3px rgba(49, 131, 77, 0.1);
+}
+
+.add-crop-card button {
+  margin-top: 12px;
+  padding: 15px;
+  background: #216b3c;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-crop-card button:hover {
+  background: #164d2b;
+}
+
+@media (max-width: 600px) {
+  .add-crop-container {
+    padding: 12px;
+  }
+
+  .add-crop-card {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,115 @@
+
+.buyer-dashboard {
+  min-height: 100vh;
+  padding: 30px;
+  background: #f4f8f3;
+  color: #243b2b;
+}
+
+.buyer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.buyer-header h1 {
+  color: #185b36;
+  margin-bottom: 8px;
+}
+
+.buyer-header p {
+  color: #78877b;
+}
+
+.buyer-status {
+  background: #dff2e3;
+  color: #216b3c;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.buyer-welcome {
+  background: linear-gradient(120deg, #185b36, #368c51);
+  color: white;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+}
+
+.buyer-welcome h2 {
+  margin-bottom: 10px;
+}
+
+.buyer-welcome p {
+  margin-bottom: 20px;
+}
+
+.buyer-welcome input {
+  width: 100%;
+  max-width: 450px;
+  padding: 14px;
+  border: none;
+  border-radius: 9px;
+  font-size: 15px;
+}
+
+.buyer-crop-section h2 {
+  color: #185b36;
+  margin-bottom: 20px;
+}
+
+.buyer-crop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.buyer-crop-card {
+  background: white;
+  padding: 22px;
+  border-radius: 15px;
+  border: 1px solid #e3eee3;
+  box-shadow: 0 4px 15px rgba(30, 70, 40, 0.06);
+}
+
+.buyer-crop-card h3 {
+  color: #216b3c;
+  margin-bottom: 15px;
+}
+
+.buyer-crop-card p {
+  margin: 10px 0;
+  color: #627267;
+}
+
+.buyer-crop-card button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #216b3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buyer-crop-card button:hover {
+  background: #164d2b;
+}
+
+.buyer-crop-section small {
+  display: block;
+  margin-top: 18px;
+  color: #78877b;
+}
+
+@media (max-width: 600px) {
+  .buyer-dashboard {
+    padding: 15px;
+  }
+}
